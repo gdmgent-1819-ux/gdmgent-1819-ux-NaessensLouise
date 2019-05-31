@@ -1,0 +1,142 @@
+/*add tot every css page */
+
+.sg-subtitle{
+    font-family: 'Concert One';
+    letter-spacing: 4px;
+    font-size:70px;
+    text-align: center;
+    margin-top: 160px;
+    margin-left:25px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Caveat', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-left:25px;
+}
+
+.navigation-bar {
+    text-align: center;
+}
+
+.navigation-bar: a {
+    height: 80px;  
+    display: block;
+}
+
+li{
+    margin-bottom:20px;
+    list-style:none;
+}
+
+a{
+    font-family: 'Poiret One', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    width:10%;
+    position: absolute;
+	top: 2%;
+	right: 1%;
+}
+
+
+
+
+
+
+
+/*components.css */
+.subtitle{
+    font-family: 'Calibri', sans-serif;
+    font-size: 16pt;
+}
+
+
+nav ul.mainnav{
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+    background-image: linear-gradient(#6CBFC5, #498E93);
+    box-shadow: 0px 3px 6px #888888;
+    height:65px;
+
+}
+
+nav ul.mainnav li a{
+   text-decoration:none;      /*dit is om lijn onder link weg te doen*/
+   text-transform:uppercase; /*tekst in drukletters*/
+   font-family: 'Andale Mono', sans-serif;
+   font-size: 18pt;
+   color:#497072;
+   background-color:#6CBFC5, #498E93;
+   padding:20px;
+   display:inline-block;
+   transition: all 1s ease-in-out;
+}
+
+nav ul.mainnav li:hover a,nav ul.mainnav li.active a{
+    color:#FFFFFF;
+}
+
+
+.fling-minislide {width:1000px; height:400px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 50%; height: auto; margin-left:5px;;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+@keyframes bouncing {
+    0% {bottom: 0;}
+    50% {bottom: 20px;}
+    100% {bottom: 0;}
+}
+
+.aboutus{
+    width:1000px;
+    height:300px;
+}
+
+.aboutusimg{
+    height: auto;
+    width:50%;
+    margin-top:-150px;
+}
+
+.rooms{
+    width:1000px;
+    height: 350px;
+    margin-bottom:400px;
+}
+
+.room{
+    margin: 5px;
+    height: auto;
+    width:40%;
+}
+
+.facilities{
+    width:1000px;
+    height: 400px;
+    margin-bottom:400px;
+}
+
+.facility{
+    margin: 5px;
+    height: auto;
+    width:40%;
+}
+
