@@ -5,7 +5,8 @@
 - Studentnummer: 105178
 - Klasgroep: 1GDM
 - UX prototype link:
- Website:
+
+Website:
 https://xd.adobe.com/view/8d0ac4f9-e3c7-4a03-6a17-950a5de7fc7c-fb3b/?fullscreen
 
 Smartphone:
